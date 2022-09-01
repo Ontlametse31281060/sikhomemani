@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faucetgraphy</title>
+    <link rel="stylesheet" href="faucet.css">
+    <script src="https://kit.fontawesome.com/eae7417df4.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init('3U7U5LDXsMKzYwoSi');
+        })();
+    </script>
+</head>
+<body>
+    
+        <!--header-->
+        <header class = "header">
+            <div class="container nav-section">
+                <div class="brand-and-navBtn">
+                    <span class="brand-name">
+                        FAUCETGRAPHY
+                    </span>
+                    <span class="navBtn flex">
+                        <i class="fas fa-bars"></i>
+                    </span>
+                </div>
+    
+                <!--nav menu-->
+                <nav class="top-nav">
+                    <ul>
+                        <li><a href = "index.html">Home</a></li>
+                        <li><a href = "portraits.html">Portraits</a></li>
+                        <li><a href = "graduations.html">Graduations</a></li>
+                        <li><a href = "weddings.html">Weddings</a></li>
+                        <li><a href = "contact.html" class="active">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+    
+            <div class="container about">
+                <div class="about-content">
+                    <div class="about-img flex">
+                        <img src = "Myself/_FAC1812.jpg" width="400" height="500" alt="photogrpher img">
+                    </div>
+                    <h2>Sikho Memani</h2>
+                    <h3>Photographer</h3>
+                    <blockquote>
+                        “It’s one thing to make a picture of what a person looks like, it’s another thing to make a portrait of who they are.”
+    
+                        <span>– Paul Caponigro</span>
+                    </blockquote>
+                </div>
+                <div class="social-icons">
+                    <ul>
+                        <li>
+                            <a href = "https://www.facebook.com/Faucetgraphy"><i class = "fab fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href = "https://www.instagram.com/_faucetgraphy/"><i class = "fab fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="contact.html"><i class = "fas fa-envelope"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <!--end of header-->
+
+        <!--main-->
+
+        <section class="section-five">
+            <div class="container">
+                <div class="contact-top">
+                    <h3>Contact Me</h3>
+                    <p>Book a photoshoot or make a general enquiry, I'll get back to you as soon as possible</p>
+                </div>
+
+                <div class="contact-bottom">
+                    <div class="form">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                        <input type="text" id="email" placeholder="Enter Your Email Address" required>
+                        <input type="text" id="number" placeholder="Enter Your Phone Number" required>
+                        <input type="text" id="subject" placeholder="Subject" required>
+                        <textarea rows="8" id="message" placeholder="How can I help you?" required></textarea>
+                        <button onclick="SendMail()" class="btn">Send Email</button>
+                    </div>
+                        
+                </div>
+            </div>
+        </section>
+        
+        <!--end of main-->
+
+
+         <!--footer-->
+         <footer class="footer">
+            <div class="footer-container container">
+                <div>
+                    <h2>FAUCETGRAPHY</h2>
+                </div>
+                <div class="social-icons">
+                    <ul>
+                        <li>
+                            <a href = "https://www.facebook.com/Faucetgraphy"><i class = "fab fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href = "https://www.instagram.com/_faucetgraphy/"><i class = "fab fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href = "contact.html"><i class="fas fa-envelope"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <p>© Copyright Ontla's Web Solutions, Inc.</p>
+        </footer>
+    <!--end of footer-->
+
+    <script src="faucet.js"></script>
+</body>
+</html>
